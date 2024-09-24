@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+* {
+  font-family: Protest Guerrilla;
+  background-color: bisque;
+}
+
+h1 {
+  text-align: center;
+	padding: 10px;
+	color: black;
+	background-color: blueviolet;
+    display: flex;
+   justify-content: center;
+
+}
+.formFakeUser {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+  border-color: blueviolet;
+}
+
+.allFakeUsers {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.fakeuser {
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  border-radius: 15px;
+  box-shadow: 0 0 15px blueviolet;
+  padding: 10px ;
+  align-content: center;
+}
+p {
+  margin: 5px;
+}
+img {
+  border-radius: 50%;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}

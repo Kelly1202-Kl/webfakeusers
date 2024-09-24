@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Gerador de Fake User</title>
+	 <link rel="stylesheet" type="text/css" href="stilo.css" />
+</head> 
+<body>
+	<header><h1>Gerador de Fake-User</header></h1>
+	<div class="formFakeUser"> 
+		<input value=""type="radio"name="genero" checked/> 
+		<h4>Aleatório</h4>
+		<input value="female" type="radio" name="genero"/>
+		<h4>Mulher</h4>
+		<input value="male" type="radio" name="genero"/>
+		<h4>Homem</h4><br>
+		<h4>Quantidade:</h4>
+
+		<select>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select>
+
+		<button onclick="gerarUsuario()">Gerar Usuário</button>	
+	</div>
+	<hr>
+	  <div class="allFakeUsers">
+	 </div>
+	<script src="code.js"></script>
+</body>
+</html>
